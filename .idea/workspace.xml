@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce7d34c2-137d-47c5-9bd2-24f5ed7cd7cf" name="Default" comment="firtst commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py.bat" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/Executor.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/conclusion/conculsion_cal.py" afterPath="$PROJECT_DIR$/src/com/company/conclusion/conculsion_cal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/database/Twitter2DataQuery.py" afterPath="$PROJECT_DIR$/src/com/company/database/Twitter2DataQuery.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/lda/LdaConstant.java" afterPath="$PROJECT_DIR$/src/com/company/lda/LdaConstant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/mf/MatrixMF.py" afterPath="$PROJECT_DIR$/src/com/company/mf/MatrixMF.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py" afterPath="$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/sum/matrixMapper.py" afterPath="$PROJECT_DIR$/src/com/company/sum/matrixMapper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/sum/scoreSum.py" afterPath="$PROJECT_DIR$/src/com/company/sum/scoreSum.py" />
+    <list default="true" id="ce7d34c2-137d-47c5-9bd2-24f5ed7cd7cf" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_26_bin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_26_bin__2_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="DataSetExecutor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cal_score_from_mf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cal_score_from_mf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -161,7 +170,6 @@
         <option value="$PROJECT_DIR$/ldaDir/database-result-unnamed.txt" />
         <option value="$PROJECT_DIR$/src/com/company/lda/LdaConstant.java" />
         <option value="$PROJECT_DIR$/src/com/company/mf/MatrixMF.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/com/company/PythonExecutor.java" />
         <option value="$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py" />
@@ -169,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/com/company/sum/matrixMapper.py" />
         <option value="$PROJECT_DIR$/py.bat" />
         <option value="$PROJECT_DIR$/src/com/company/conclusion/conculsion_cal.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -938,7 +947,7 @@
       <workItem from="1489024313255" duration="27286000" />
       <workItem from="1489109106580" duration="4522000" />
       <workItem from="1489131252866" duration="14640000" />
-      <workItem from="1489148594279" duration="1379000" />
+      <workItem from="1489148594279" duration="2726000" />
     </task>
     <task id="LOCAL-00001" summary="firtst commit">
       <created>1489131842170</created>
@@ -947,11 +956,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489131842170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加bat命令行执行py">
+      <created>1489150019122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489150019122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157655000" />
+    <option name="totallyTimeSpent" value="159002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -963,8 +979,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -995,7 +1011,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firtst commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="firtst commit" />
+    <MESSAGE value="添加bat命令行执行py" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加bat命令行执行py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1168,14 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle" />
     <entry file="file://$PROJECT_DIR$/src/com/company/PythonExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1235,8 +1244,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
         </state>
       </provider>
