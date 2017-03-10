@@ -3,7 +3,8 @@ import scipy.sparse as sparse
 import sys
 import gc
 
-mfDir = './../../../../mfDir/'
+# mfDir = './../../../../mfDir/'
+mfDir = './mfDir/'
 matrixDir = mfDir + 'matrix/'
 pqDir = mfDir + 'PQ/'
 scoreDir = mfDir + 'score/'

@@ -3,7 +3,8 @@ import MySQLdb
 
 testset_rate = 0.1
 testset_mod = int(1 / testset_rate)
-baseDir = './../../../../'
+# baseDir = './../../../../'
+baseDir = './'
 outputDir = baseDir + 'dataDir/'
 
 db = MySQLdb.connect("localhost", "root", "123456", "twitter2")

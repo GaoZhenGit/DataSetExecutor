@@ -5,7 +5,8 @@ import gc
 import matrixMapper as Mp
 import time
 
-baseDir = './../../../../'
+# baseDir = './../../../../'
+baseDir = './'
 lda_result_dir = baseDir + 'ldaDir/topic/'
 score_dir = baseDir + 'mfDir/score/'
 

@@ -3,7 +3,8 @@ import scipy.sparse as sparse
 import sys
 import gc
 #doc==follower, word==followee
-baseDir = './../../../../'
+# baseDir = './../../../../'
+baseDir = './'
 doc_dir = baseDir + 'ldaDir/database-result-sort.txt'
 word_dir = baseDir + 'ldaDir/wordmap.txt'
 

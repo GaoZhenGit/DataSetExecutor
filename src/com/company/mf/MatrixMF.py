@@ -1,7 +1,8 @@
 import scipy.sparse as sparse
 import ifmf
 
-mfDir = './../../../../mfDir/'
+# mfDir = './../../../../mfDir/'
+mfDir = './mfDir/'
 inputDir = mfDir + 'matrix/'
 outputDir = mfDir + 'PQ/'
 topicCount = 15

@@ -2,7 +2,8 @@
 from __future__ import division
 import time
 
-baseDir = './../../../../'
+# baseDir = './../../../../'
+baseDir = './'
 test_set_dir = baseDir + 'dataDir/testset.txt'
 result_set_dir = baseDir + 'mfDir/score/score_edge.txt'
 conculsionDir = baseDir + 'conculsionDir/'
