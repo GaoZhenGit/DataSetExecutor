@@ -6,6 +6,7 @@ import time
 baseDir = './'
 test_set_dir = baseDir + 'dataDir/testset.txt'
 result_set_dir = baseDir + 'mfDir/score/score_edge.txt'
+# result_set_dir = baseDir + 'mfDir/score/s_dir_mf_edge.txt'
 conculsionDir = baseDir + 'conculsionDir/'
 
 output = open(conculsionDir + str(int(time.time())) + '.txt','w')
