@@ -10,9 +10,7 @@ baseDir = './'
 lda_result_dir = baseDir + 'ldaDir/topic/'
 score_dir = baseDir + 'mfDir/score/'
 
-user_num = 4359
-item_num = 5733
-topicCount = 15
+
 data_info = open(baseDir + 'ldaDir/model-final.others')
 for line in data_info:
     if line.find('ndocs') >= 0:

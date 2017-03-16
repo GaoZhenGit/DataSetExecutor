@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 import scipy.sparse as sparse
-import ifmf
+import com.company.mf.ifmf
 import gc
 
 baseDir = './'
@@ -41,7 +41,7 @@ with open(baseDir + 'ldaDir/database-result-unnamed.txt') as file:
             matrix[i, j] = 1
 
 print 'read matrix finish'
-P, Q = ifmf.alternating_least_squares_cg(matrix, 10,regularization=0.01, iterations=2)
+P, Q = com.company.mf.ifmf.alternating_least_squares_cg(matrix, 10, regularization=0.01, iterations=2)
 print 'mf finish'
 Q = Q.T
 score = P.dot(Q)

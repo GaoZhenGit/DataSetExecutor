@@ -7,11 +7,12 @@ testset_mod = int(1 / testset_rate)
 baseDir = './'
 outputDir = baseDir + 'dataDir/'
 
-db = MySQLdb.connect("localhost", "root", "123456", "twitter2")
+db = MySQLdb.connect("localhost", "root", "123456", "twitter")
 cursor = db.cursor()
 
-sql = 'select `srcid`, `desid` from `chinese_relation` order by `srcid`'
+# sql = 'select `srcid`, `desid` from `chinese_relation` order by `srcid`'
 # sql = 'select `desid`, `srcid` from `chinese_relation` order by `desid`'
+sql = 'select `f`,`g` from `filter10_5` order by `f`'
 
 
 cursor.execute(sql)

@@ -8,9 +8,9 @@ import java.io.File;
 public interface LdaConstant {
     String DataInputNamed = "database-result-named.txt";
     String DataInputUnnamed = "database-result-unnamed.txt";
-    int UserCount = 4359;
+    int UserCount = 30175;
     int TopicCount = 15;
-    int WordCount = 5733;//手动填写
+    int WordCount = 30175;//手动填写
 
     String filterDecimalFormat = "0.000000000000000";//过滤器格式
 

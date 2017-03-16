@@ -20,7 +20,7 @@ public class LdaFilter {
         filterTheta(theta, thetaAfter, 0.05);
         File phi = new File(LdaConstant.Phi);
         File phiAfter = new File(LdaConstant.PhiAfter);
-        filterPhi(phi, phiAfter, 500);
+        filterPhi(phi, phiAfter, 5000);
     }
 
     private static void filterTheta(File before, File after, double threshold) throws FileNotFoundException {

@@ -1,13 +1,20 @@
 # -*- coding: UTF-8 -*-
 from __future__ import division
 import time
+import sys
 
 # baseDir = './../../../../'
 baseDir = './'
 test_set_dir = baseDir + 'dataDir/testset.txt'
-result_set_dir = baseDir + 'mfDir/score/score_edge.txt'
-# result_set_dir = baseDir + 'mfDir/score/s_dir_mf_edge.txt'
 conculsionDir = baseDir + 'conculsionDir/'
+
+#根据命令行参数来决定对哪个文件进行conclusion
+if len(sys.argv) == 1:
+    result_set_dir = baseDir + 'mfDir/score/score_edge.txt'
+elif sys.argv[1] == 'dirmf':
+    result_set_dir = baseDir + 'mfDir/score/s_dir_mf_edge.txt'
+elif sys.argv[1] == 'mosttop':
+    result_set_dir = baseDir + 'mfDir/score/s_most_top_edge.txt'
 
 output = open(conculsionDir + str(int(time.time())) + '.txt','w')
 

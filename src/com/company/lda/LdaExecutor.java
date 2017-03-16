@@ -13,7 +13,7 @@ public class LdaExecutor {
         option.dir = LdaConstant.LdaDir;
         option.dfile = LdaConstant.DataInputUnnamed;
         option.est = true;  /////
-        option.estc = false;
+        option.estc = true;
         option.inf = false;
         option.modelName = "model-final";
         option.niters = 100;
