@@ -2,10 +2,7 @@ package com.company.lda;
 
 import java.io.*;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by host on 2017/1/28.
@@ -20,7 +17,7 @@ public class LdaFilter {
         filterTheta(theta, thetaAfter, 0.05);
         File phi = new File(LdaConstant.Phi);
         File phiAfter = new File(LdaConstant.PhiAfter);
-        filterPhi(phi, phiAfter, 5000);
+        filterPhi(phi, phiAfter, 500);
     }
 
     private static void filterTheta(File before, File after, double threshold) throws FileNotFoundException {
@@ -53,9 +50,12 @@ public class LdaFilter {
             String line = scanner.nextLine();
             String[] topicsStr = line.split(" ");
             List<Double> topicList = new ArrayList<>(topicsStr.length);
+            Set<Double> toplicSet = new HashSet<>();
             for (String topic : topicsStr) {
                 topicList.add(Double.valueOf(topic));
+                toplicSet.add(Double.valueOf(topic));
             }
+            System.out.println(toplicSet.size());
             topicList.sort(new Comparator<Double>() {
                 @Override
                 public int compare(Double o1, Double o2) {

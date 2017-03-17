@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce7d34c2-137d-47c5-9bd2-24f5ed7cd7cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lda/lda_baseline_scroe.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/mf/mf_without_lda.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/mf/processtest.py" afterPath="" />
+    <list default="true" id="ce7d34c2-137d-47c5-9bd2-24f5ed7cd7cf" name="Default" comment="添加直接mf的操作">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lda/lda_executor.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/lda/LdaSeperatorSimple.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py.bat" afterPath="$PROJECT_DIR$/py.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/conclusion/conculsion_cal.py" afterPath="$PROJECT_DIR$/src/com/company/conclusion/conculsion_cal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/lda/LdaFilter.java" afterPath="$PROJECT_DIR$/src/com/company/lda/LdaFilter.java" />
     </list>
     <ignored path="DataSetExecutor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,67 +28,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="matrixMapper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/sum/matrixMapper.py">
+      <file leaf-file-name="TwitterDataQuery.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/database/TwitterDataQuery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="476">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <marker date="1489589550156" expanded="true" signature="267:331" ph="select `srci... chinese_relation" />
+                <marker date="1489589550156" expanded="true" signature="415:460" ph="select `f`,`... filter10_5" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="most_top.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/other/most_top.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixMF.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/mf/MatrixMF.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mf_without_lda.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/mf/mf_without_lda.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-              <folding>
-                <element signature="e#24#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conculsion_cal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/conclusion/conculsion_cal.py">
+      <file leaf-file-name="py.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cal_score_from_mf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py">
+      <file leaf-file-name="lda_executor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/lda/lda_executor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="15" />
+            <state relative-caret-position="1479">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding>
-                <element signature="e#24#53#0" expanded="true" />
+                <element signature="e#24#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ifmf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/mf/ifmf.py">
+      <file leaf-file-name="LdaFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/lda/LdaFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="155">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LdaSeperator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/lda/LdaSeperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -116,15 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/sum/CalScoreSum.java" />
-        <option value="$PROJECT_DIR$/src/com/company/sum/test.py" />
-        <option value="$PROJECT_DIR$/src/com/company/database/TextReader.java" />
-        <option value="$PROJECT_DIR$/src/com/company/database/TwitterDataSetOperation.java" />
-        <option value="$PROJECT_DIR$/src/com/company/lda/LdaFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/company/lda/LdaSeperator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/mf/scoreCal.py" />
-        <option value="$PROJECT_DIR$/conculsionDir/1488961525.txt" />
-        <option value="$PROJECT_DIR$/ldaDir/topic/f_c_1" />
         <option value="$PROJECT_DIR$/mfDir/score/score_edge.txt" />
         <option value="$PROJECT_DIR$/conculsionDir/1488967155.txt" />
         <option value="$PROJECT_DIR$/conculsionDir/1488969650.txt" />
@@ -144,25 +133,38 @@
         <option value="$PROJECT_DIR$/conculsionDir/1489054823.txt" />
         <option value="$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf_T.py" />
         <option value="$PROJECT_DIR$/mfDir/score/sT0" />
-        <option value="$PROJECT_DIR$/src/com/company/lda/LdaExecutor.java" />
         <option value="$PROJECT_DIR$/src/com/company/PythonExecutor.py" />
-        <option value="$PROJECT_DIR$/src/com/company/database/Twitter2DataQuery.py" />
-        <option value="$PROJECT_DIR$/ldaDir/database-result-sort.txt" />
-        <option value="$PROJECT_DIR$/ldaDir/database-result-unnamed.txt" />
-        <option value="$PROJECT_DIR$/src/com/company/lda/LdaConstant.java" />
         <option value="$PROJECT_DIR$/src/com/company/mf/MatrixMF.py" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/com/company/PythonExecutor.java" />
         <option value="$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py" />
-        <option value="$PROJECT_DIR$/src/com/company/sum/scoreSum.py" />
         <option value="$PROJECT_DIR$/src/com/company/sum/matrixMapper.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/company/lda/lda_baseline_scroe.py" />
-        <option value="$PROJECT_DIR$/py.bat" />
         <option value="$PROJECT_DIR$/mfDir/score/s_dir_mf_edge.txt" />
-        <option value="$PROJECT_DIR$/src/com/company/mf/mf_without_lda.py" />
         <option value="$PROJECT_DIR$/conculsionDir/1489210024.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/mf/mf_without_lda.py" />
+        <option value="$PROJECT_DIR$/src/com/company/database/TwitterDataSetOperation.java" />
+        <option value="$PROJECT_DIR$/src/com/company/database/Twitter2DataQuery.py" />
+        <option value="$PROJECT_DIR$/src/com/company/lda/LdaConstant.java" />
+        <option value="$PROJECT_DIR$/src/com/company/lda/LdaExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/company/sum/scoreSum.py" />
+        <option value="$PROJECT_DIR$/conculsionDir/1489596854.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/database/most_top.py" />
+        <option value="$PROJECT_DIR$/conculsionDir/1489634728.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/other/mf_without_lda.py" />
+        <option value="$PROJECT_DIR$/src/com/company/other/most_top.py" />
+        <option value="$PROJECT_DIR$/conculsionDir/1489650916.txt" />
         <option value="$PROJECT_DIR$/src/com/company/conclusion/conculsion_cal.py" />
+        <option value="$PROJECT_DIR$/src/com/company/lda/ldaExecutor.py" />
+        <option value="$PROJECT_DIR$/py.bat" />
+        <option value="$PROJECT_DIR$/ldaDir/wordmap_o.txt" />
+        <option value="$PROJECT_DIR$/ldaDir/database-result-named.txt" />
+        <option value="$PROJECT_DIR$/ldaDir/database-result-sort.txt" />
+        <option value="$PROJECT_DIR$/ldaDir/database-result-unnamed.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/lda/lda_executor.py" />
+        <option value="$PROJECT_DIR$/src/com/company/lda/LdaFilter.java" />
+        <option value="$PROJECT_DIR$/conculsionDir/1489688819.txt" />
       </list>
     </option>
   </component>
@@ -171,6 +173,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -203,6 +212,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,28 +282,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSetExecutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSetExecutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="mf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -316,46 +305,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSetExecutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSetExecutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conclusion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSetExecutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSetExecutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mfDir" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="score" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,8 +352,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -413,6 +360,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/conculsionDir/1489596854.txt" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -420,8 +368,11 @@
       <recent name="D:\JavaProject\DataSetExecutor\lib" />
       <recent name="D:\JavaProject\DataSetExecutor\src\com\company\mf" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\DataSetExecutor\src\com\company\other" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Clean">
+  <component name="RunManager" selected="Application.MatrixReader">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1124,7 +1075,15 @@
       <workItem from="1489131252866" duration="14640000" />
       <workItem from="1489148594279" duration="11664000" />
       <workItem from="1489202140982" duration="5391000" />
-      <workItem from="1489330472632" duration="20000" />
+      <workItem from="1489330472632" duration="1600000" />
+      <workItem from="1489418355354" duration="5334000" />
+      <workItem from="1489571015365" duration="3175000" />
+      <workItem from="1489589369791" duration="2639000" />
+      <workItem from="1489596526166" duration="497000" />
+      <workItem from="1489628433393" duration="5308000" />
+      <workItem from="1489635116822" duration="28119000" />
+      <workItem from="1489687493377" duration="1452000" />
+      <workItem from="1489723678930" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="firtst commit">
       <created>1489131842170</created>
@@ -1147,11 +1106,25 @@
       <option name="project" value="LOCAL" />
       <updated>1489153321502</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加直接mf的操作">
+      <created>1489330537019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489330537019</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加most top 算法，加另外一些改进">
+      <created>1489652272617</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489652272617</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173351000" />
+    <option name="totallyTimeSpent" value="221972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1159,11 +1132,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17004265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1171,15 +1146,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1197,7 +1170,9 @@
     <MESSAGE value="firtst commit" />
     <MESSAGE value="添加bat命令行执行py" />
     <MESSAGE value="清除配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="清除配置文件" />
+    <MESSAGE value="添加直接mf的操作" />
+    <MESSAGE value="添加most top 算法，加另外一些改进" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加most top 算法，加另外一些改进" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1210,125 +1185,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ldaDir/topic/g_c_10" />
-    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.tassign" />
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489047623.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489050117.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mfDir/matrix/zMsimple8" />
-    <entry file="file://$PROJECT_DIR$/mfDir/matrix/zMsimple0" />
-    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.phi" />
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489044143.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataDir/database-result-unnamed.txt" />
-    <entry file="file://$PROJECT_DIR$/ldaDir/model-00050.theta" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/lda/LdaExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/algorithm/lda/LDAOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/PythonExecutor.py" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/database/Twitter2DataQuery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Executor.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSetExecutor.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.others">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/lda/LdaConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Runtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="345" column="19" selection-start-line="345" selection-start-column="19" selection-end-line="345" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/PythonExecutor.java" />
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489149843.txt" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489153931.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/lda/lda_baseline_scroe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/mf/processtest.py" />
     <entry file="file://$PROJECT_DIR$/ldaDir/model-final.theta-after">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1336,156 +1192,281 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.phi-after">
+    <entry file="file://$PROJECT_DIR$/conculsionDir/1489651697.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/other/mf_without_lda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43077">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="731">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py.bat">
+    <entry file="file://$PROJECT_DIR$/conculsionDir/1489651715.txt" />
+    <entry file="file://$PROJECT_DIR$/conculsionDir/1489651734.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        <state relative-caret-position="136">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/sum/scoreSum.py">
+    <entry file="file://$PROJECT_DIR$/conculsionDir/1489651828.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/conclusion/conclusion_cal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/sum/matrixMapper.py">
+    <entry file="file://$PROJECT_DIR$/src/com/company/lda/LdaSeperatorSimple.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/database/TwitterDataQuery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldaDir/database-result-unnamed.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="2" column="946" selection-start-line="2" selection-start-column="938" selection-end-line="2" selection-end-column="946" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/mf/MatrixMF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1489589550156" expanded="true" signature="267:331" ph="select `srci... chinese_relation" />
+            <marker date="1489589550156" expanded="true" signature="415:460" ph="select `f`,`... filter10_5" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mfDir/score/score_edge.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mfDir/score/s14">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mfDir/score/score_sum.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/conculsionDir/1489652846.txt" />
+    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.twords" />
     <entry file="file://$PROJECT_DIR$/ldaDir/wordmap.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="3506" column="9" selection-start-line="3506" selection-start-column="0" selection-end-line="3506" selection-end-column="9" />
+          <caret line="4876" column="7" selection-start-line="4876" selection-start-column="0" selection-end-line="4876" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mfDir/score/s_dir_mf.txt">
+    <entry file="file://$PROJECT_DIR$/dataDir/database-result-unnamed.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ldaDir/database-result-sort.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/company/other/most_top.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/mf/ifmf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="74">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/mf/MatrixMF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/wordmap_o.txt" />
+    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.others">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.others_o" />
+    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.theta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40972">
+          <caret line="27738" column="311" selection-start-line="27738" selection-start-column="311" selection-end-line="27738" selection-end-column="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/model-final-o.theta" />
+    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.tassign" />
+    <entry file="file://$PROJECT_DIR$/ldaDir/model-final-o.phi" />
+    <entry file="file://$PROJECT_DIR$/ldaDir/database-result-named.txt" />
+    <entry file="file://$PROJECT_DIR$/ldaDir/database-result-sort.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/database-result-unnamed.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/model-final.phi-after">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1811">
+          <caret line="14" column="529271" selection-start-line="14" selection-start-column="529271" selection-end-line="14" selection-end-column="529271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/topic/f_c_0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153923">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/topic/g_c_0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/topic/g_c_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/topic/g_c_6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/topic/g_c_13">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/topic/g_c_11">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldaDir/topic/g_c_7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfDir/matrix/zMsimple0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfDir/matrix/zMsimple8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfDir/matrix/zMsimple12">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfDir/matrix/zMsimple10">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mfDir/matrix/zMsimple14">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conculsionDir/most_top.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/mf/cal_score_from_mf.py">
+    <entry file="file://$PROJECT_DIR$/mfDir/matrix/zMsimple13">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mfDir/score/s_dir_mf_edge.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/company/mf/MatrixReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3083">
-          <caret line="65336" column="19" selection-start-line="65336" selection-start-column="19" selection-end-line="65336" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489209916.txt" />
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489210024.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489054823.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conculsionDir/1489045740.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/conclusion/conculsion_cal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="-1822">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/mf/mf_without_lda.py">
+    <entry file="file://$PROJECT_DIR$/src/com/company/lda/lda_executor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        <state relative-caret-position="1479">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
-            <element signature="e#24#53#0" expanded="true" />
+            <element signature="e#24#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/lda/LdaSeperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conculsionDir/1489688103.txt" />
+    <entry file="file://$PROJECT_DIR$/conculsionDir/mf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conculsionDir/lda+mf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conculsionDir/newlda+mf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/lda/LdaFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
