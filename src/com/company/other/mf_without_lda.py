@@ -1,5 +1,7 @@
 # -*- coding: UTF-8 -*-
 import scipy.sparse as sparse
+import sys
+sys.path.append("./src")
 import com.company.mf.ifmf
 import gc
 
