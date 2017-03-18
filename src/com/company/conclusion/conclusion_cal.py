@@ -15,6 +15,8 @@ elif sys.argv[1] == 'dirmf':
     result_set_dir = baseDir + 'mfDir/score/s_dir_mf_edge.txt'
 elif sys.argv[1] == 'mosttop':
     result_set_dir = baseDir + 'mfDir/score/s_most_top_edge.txt'
+elif sys.argv[1] == 'dirlda':
+    result_set_dir = baseDir + 'mfDir/score/s_dir_lda_edge.txt'
 
 output = open(conculsionDir + str(int(time.time())) + '.txt','w')
 

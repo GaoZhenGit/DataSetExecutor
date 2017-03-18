@@ -7,6 +7,7 @@ if %1 == sum python ./src/com/company/sum/scoreSum.py
 if %1 == con python ./src/com/company/conclusion/conclusion_cal.py %2
 if %1 == dirmf python ./src/com/company/other/mf_without_lda.py
 if %1 == mosttop python ./src/com/company/other/most_top.py
+if %1 == dirlda python ./src/com/company/other/dir_lda.py
 if %1 == help (
     echo database TwitterDataQuery.py
     echo mf       MatrixMF.py
