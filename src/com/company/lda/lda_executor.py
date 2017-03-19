@@ -51,7 +51,7 @@ def dataToMatrix(matrix_data, word_map):
     matrix = sparse.dok_matrix((len(matrix_data), len(word_map)), dtype=int)
     for i, i_t in enumerate(matrix_data):
         for j_t in i_t:
-            matrix[i, word_map[j_t]] = 1
+            matrix[i, word_map[j_t]] += 1
     return matrix
 
 
@@ -82,6 +82,7 @@ def print_model(model, matrix):
 matrix_data, word_map = readData()
 X = dataToMatrix(matrix_data, word_map)
 print 'load matrix finish'
+print X
 
 model = lda.LDA(n_topics=topic_count, random_state=None, n_iter=100, alpha=alpha)
 model.fit(X)

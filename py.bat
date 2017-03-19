@@ -8,6 +8,7 @@ if %1 == con python ./src/com/company/conclusion/conclusion_cal.py %2
 if %1 == dirmf python ./src/com/company/other/mf_without_lda.py
 if %1 == mosttop python ./src/com/company/other/most_top.py
 if %1 == dirlda python ./src/com/company/other/dir_lda.py
+if %1 == lda_pre python ./src/com/company/other/lda_pre_mosttop.py
 if %1 == help (
     echo database TwitterDataQuery.py
     echo mf       MatrixMF.py
@@ -15,5 +16,7 @@ if %1 == help (
     echo sum      scoreSum.py
     echo con      conclusion_cal.py
     echo dirmf    mf_without_lda.py
+    echo dirlda   dir_lda.py
+    echo lda_pre lda_with_mosttop.py
     echo mosttop  most_top.py
 )

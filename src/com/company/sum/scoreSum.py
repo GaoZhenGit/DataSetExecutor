@@ -29,7 +29,6 @@ def makeMatrix():
 
 
 def addScore(index, matrix, mapper):
-    print(id(matrix))
     # f_c_n文件读入
     f_c_n_file = open(lda_result_dir + 'f_c_' + str(index), 'r')
     fcnMap = {}  # user_id到概率P的映射
@@ -73,7 +72,7 @@ def addScore(index, matrix, mapper):
 
 
 def printMatrix(matrix, mapper):
-    print(str(id(matrix)) + 'start print matrix')
+    print('start print matrix')
     t0 = time.time()
     score_output = open(score_dir + 'score_sum.txt', 'w')
     score_edge = open(score_dir + 'score_edge.txt', 'w')
